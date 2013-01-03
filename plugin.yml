@@ -1,0 +1,14 @@
+name: BuycraftAnnouncer
+main: com.zachoz.BuycraftAnnouncer.BuycraftAnnouncer
+version: 2.0
+commands:
+   donorbroadcast:
+      description: Announce a new purchase.
+      usage: /<command>
+      permission: buycraftannouncer.broadcast
+      permission-message: You don't have to use this command!
+   buycraftannouncer:
+      description: Base command..
+      usage: /<command>
+      permission: buycraftannouncer.command
+      permission-message: You don't have to use this command!
